@@ -3,7 +3,7 @@
 # crontab -e
 # 0 * * * * /bin/bash $HOME/bin/random.sh >> /tmp/random-wallpaper.log 2>&1
 
-declare -a CATEGORIES=(groot spiderman justice-league GotG marvel+comics+collage dc+comics+collage)
+declare -a CATEGORIES=(groot spiderman justice-league GotG marvel+comics+collage dc+comics+collage black+widow+superhero wonder+woman+gal+gadot)
 
 randindex=$((RANDOM%(${#CATEGORIES[@]})))
 CATEGORY=${CATEGORIES[$randindex]}
